@@ -13,5 +13,6 @@ console.log(newObject);
 //Добавить поле details, которое будет содержать объект с полями model и color
 newObject.deteils = {};
 newObject.deteils.model = 'X';
+console.log(newObject)
 newObject['deteils']['color'] = 'green';
 console.log(newObject)
