@@ -18,7 +18,7 @@ discount: '15%',
 price.getPrice(); // 10
 price.getPriceWithDiscount(); // 8.5 */
 const price = {
-    price: 10,
+    price: 1000,
     discount: '15%',
     getPrice() {
         return this.price
